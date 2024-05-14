@@ -5,7 +5,7 @@
 
 [Link for the application](https://alesya-superfin-recipe-search.netlify.app/)
 
-![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-store/blob/main/online_clothing_store.jpg)
+![Product Name Screen Shot](https://github.com/AlesyaSuperfin/recipe-search/blob/main/src/recipe-search.jpg)
 
 I created Online Clothing Store to learn how to work with Props, useState() and React Router.
 
