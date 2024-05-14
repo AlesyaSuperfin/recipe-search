@@ -7,16 +7,14 @@
 
 ![Product Name Screen Shot](https://github.com/AlesyaSuperfin/recipe-search/blob/main/src/recipe-search.jpg)
 
-I created Online Clothing Store to learn how to work with Props, useState() and React Router.
+I created Recipe Search application to learn how to work with Props, useState(), useEffect and API.
 
 * The project is based on React.
-* The project contains 25 products by different categories.
-* You can filter products using category buttons ("Dress", "Shoes", "Kids" etc.)
-* Navigation on the site is implemented using Recat Router.
-* Each product opens on a separate page with additional description.
+* The project successfully used a fetch request to the API (edamam.com/).
+* You can write any ingredients and find a lot of recipes form database of 2 villione recipes from edamam.com/.
+* Simple and nice design!
 
-![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-store/blob/main/online_clothing_store_two.jpg)
-![Product Name Screen Shot](https://github.com/AlesyaSuperfin/online-clothing-store/blob/main/online_clothing_store_three.jpg)
+![Product Name Screen Shot](https://github.com/AlesyaSuperfin/recipe-search/blob/main/src/recipe-search_mob.jpg)
 
 
 
