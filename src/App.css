@@ -1,38 +1,136 @@
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 .App {
-  text-align: center;
+  background-color: rgba(15, 13, 13, 0.493);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 20px;
+  width: 80%;
+  text-align: center;
+}
+
+h1 {
   color: white;
+  font-family: "Montserrat", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+#green {
+  color: #C5FF95;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+form {
+  padding: 0px;
+}
+
+input, button {
+  padding: 10px;
+  border-radius: 100px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  background-color: #ff4747;
+  margin-left: 20px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fd2323;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.containerRecipe {
+  background-color: white;
+  margin: auto;
+  margin-top: 20px;
+  width: 40%;
+  border-radius: 100px;
+  padding: 20px;
+}
+
+.containerDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin: auto;
+  margin-left: 60px;
+  width: 80%;
+}
+
+img {
+  border-radius: 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 20px;
+}
+
+p, ul, h4, h3, h2 {
+  margin: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+
+h4 {
+  background-color: #C5FF95;
+}
+
+h2 {
+  color: #294B29;
+}
+
+h3 {
+  color: #FF6868;
+}
+
+@media all and (max-width: 800px) {
+  .containerRecipe {
+    width: 80%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media all and (max-width: 500px) {
+  #green {
+    font-size: 16px;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+  .containerDescription {
+    margin-left: 10px;
+    width: 100%;
+  }
+
+  p, li {
+    font-size: 14px;
   }
 }
