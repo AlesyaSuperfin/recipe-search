@@ -31,7 +31,7 @@ function MyRecipeComponent ({label, image, calories, ingredients, mealtype, caut
                 <h4>Cautions: </h4>
                 <ul>
                 {cautions.map((caution, index) => (
-                    <li>* {caution}</li>
+                    <li  key={index}>* {caution}</li>
                 )) }
                 </ul>
             </div>
